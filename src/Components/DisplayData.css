@@ -1,0 +1,115 @@
+/* styles.css (or App.css) */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* DisplayData.css */
+
+.card-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;    
+
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 8px;
+}
+
+.card ul li strong {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #555555;
+}
+
+
+
+/* TimeComponent.css */
+
+.time {
+    text-align: center;
+    margin-top: 20vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; 
+}
+
+.time h1 {
+    font-size: 3rem;
+    color: #333;
+}
+/* 
+.time button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 3rem;
+
+}
+
+.time button:hover {
+    background-color: #0056b3;
+}
+ */
+
+
+ .hooks-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 50vh;   ;/* Adjust height as needed */
+  }
+  
+  .hooks {
+    text-align: center; /* Center text within the hooks div */
+  }
+  
+  .hooks button {
+    margin: 0 10px;
+    flex-direction: column; /* Add margin between buttons */
+  }
+  

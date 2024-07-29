@@ -1,0 +1,40 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: blueviolet;
+  padding: 3rem 10rem; 
+  font-family: Arial, sans-serif; 
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 30px; /* Adjust spacing between nav items */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem; /* Change font size */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Positioning adjustments */
+.start {
+  margin-left: 20px; /* Adjust to align with first card */
+}
+
+.end {
+  margin-right: 20px; /* Adjust to align with end of last card */
+}
